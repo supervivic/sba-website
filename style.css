@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 90%;
+    height: 200vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75)rgba(0,0,0,0.75)),url(Solgo.png);
+    
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    background-blend-mode: color;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: darkorange;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #f0990e;
+    left: 0;
+    bottom: 10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    margin-left: 15px;
+    font-style: oblique;
+    text-align: center;
+    
+}
+.info{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin: 20px;
+    text-align: center;
+    font-family: monospace;
+    
+}
+.table{
+    position: absolute;
+    transform: translateX(130%) translateY(-200%)
+    
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #ed8115;
+    background: transparent;
+    color: #ed8115;
+    cursor: pointer;
+    transform: translateX(300%) translateY(-690%)
+}
+
+
+
+    
+    
